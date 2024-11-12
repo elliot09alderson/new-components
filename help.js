@@ -28,6 +28,7 @@ const slug = name.split(" ").join("-");
             });
             responseReturn(res, 201, {
               category,
+                    
               message: "category add success",
             });
           } else {
